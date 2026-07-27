@@ -1,7 +1,17 @@
 aid: gangkhar
 name: Gangkhar
-description: Gangkhar is a company surfaced as a portfolio company of anthemis and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Gangkhar is an AI-native embedded protection infrastructure platform that lets digital
+  platforms, insurers, MGAs, and brokers configure, launch, and continuously optimize
+  embedded insurance products globally through a single infrastructure layer and API. Its
+  Sherpa+ engine provides full-stack embedded protection rails covering onboarding, pricing,
+  underwriting, and claims across multiple carriers and markets, while Sherpa+Lens applies
+  real-time AI optimization to pricing, messaging, and product versions. The platform enables
+  sectors like mobility, delivery, fintech, e-commerce, travel, health, and vertical SaaS to
+  embed compliant protection directly into their customer experiences without becoming
+  insurers themselves. Founded in 2025 and led by former Chubb executive Federico Spagnoli,
+  Gangkhar closed a $4.25M seed round in March 2026 led by Anthemis. Surfaced as an Anthemis
+  portfolio company and enriched into the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/gangkhar/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +19,63 @@ x-backed-by:
 - anthemis
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://static.wixstatic.com/media/84a20e_d1dafb944cb5498bb07972a03101b8cb~mv2.png/v1/fit/w_2500,h_1330,al_c/84a20e_d1dafb944cb5498bb07972a03101b8cb~mv2.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Insurance
+- Embedded Insurance
+- InsurTech
+- Embedded Finance
+- Protection
+- AI
+- Fintech
+- Underwriting
+- Claims
 apis: []
+common:
+- type: Website
+  url: https://www.gangkhar.com/
+- type: About
+  url: https://www.gangkhar.com/about-us
+- type: FAQ
+  url: https://www.gangkhar.com/faq
+- type: Support
+  url: https://www.gangkhar.com/contact-us
+- type: Blog
+  url: https://www.gangkhar.com/press-blog
+- type: PrivacyPolicy
+  url: https://www.gangkhar.com/privacy-policy
+- type: LinkedIn
+  url: https://www.linkedin.com/company/gangkhar
+- type: YouTube
+  url: https://www.youtube.com/@GangkharGlobal
+- type: LLMsTxt
+  url: llms/gangkhar-llms.txt
+- type: MCPServer
+  url: mcp/gangkhar-mcp.yml
+- type: DomainSecurity
+  url: security/gangkhar-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
