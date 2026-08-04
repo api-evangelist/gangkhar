@@ -2,7 +2,8 @@ generated: '2026-07-19'
 method: searched
 source: https://www.gangkhar.com/llms.txt
 name: Gangkhar Site MCP
-status: live
+status: published
+status_raw: live
 scope: site-content
 description: >-
   Gangkhar's public website (gangkhar.com) is powered by Wix and advertises a hosted,
