@@ -5,12 +5,11 @@ name: Gangkhar Site MCP
 status: published
 status_raw: live
 scope: site-content
-description: >-
-  Gangkhar's public website (gangkhar.com) is powered by Wix and advertises a hosted,
-  remote Model Context Protocol (MCP) endpoint in its llms.txt for agentic AI access to
-  live, public site content. This is the Wix Site MCP surface (business details, site
-  search, bookings/checkout), NOT a first-party MCP server over the Sherpa+ embedded
-  protection API — Gangkhar publishes no public developer portal or OpenAPI at this time.
+description: Gangkhar's public website (gangkhar.com) is powered by Wix and advertises a hosted, remote
+  Model Context Protocol (MCP) endpoint in its llms.txt for agentic AI access to live, public site content.
+  This is the Wix Site MCP surface (business details, site search, bookings/checkout), NOT a first-party
+  MCP server over the Sherpa+ embedded protection API — Gangkhar publishes no public developer portal
+  or OpenAPI at this time.
 transport: remote
 endpoint: https://www.gangkhar.com/_api/mcp
 authentication: none
@@ -29,9 +28,8 @@ tools:
   - name: searchTerm
     description: The term to search for in the site.
 - name: SearchSiteApiDocs
-  description: >-
-    Retrieves the API documentation for the Wix business solutions installed on this site
-    and informs the AI client how to use the APIs.
+  description: Retrieves the API documentation for the Wix business solutions installed on this site and
+    informs the AI client how to use the APIs.
   parameters:
   - name: searchTerm
     description: The term to search for in the site API documentation.
@@ -39,8 +37,7 @@ tools:
   description: Creates a new visitor session and obtains a visitor access token for the site.
   parameters: []
 - name: CallWixSiteAPI
-  description: >-
-    Calls API methods on the site to perform actions on a visitor's behalf, such as querying
+  description: Calls API methods on the site to perform actions on a visitor's behalf, such as querying
     site data, booking an appointment, or starting a purchase.
   parameters:
   - name: visitorToken
@@ -67,3 +64,9 @@ capabilities:
 - Book services and make reservations
 - Start a purchase and be directed to the site to complete checkout
 - Ask questions and get relevant answers without browsing the site
+deployment:
+  mode: unclear
+  verified: searched
+  tools: 7
+  checked: '2026-08-12'
+  source: catalog MCP census
