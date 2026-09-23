@@ -1,0 +1,27 @@
+# Front Door AI Index — gangkhar — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: gangkhar
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.gangkhar.com
+  final_host: www.gangkhar.com
+  ownership: own
+  owner: gangkhar
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 11
+  host_score: 11
+  density: 13.33
+  words: 825
+  tiers:
+    agentic: 0
+    core: 11
+    model: 0
+  ambiguous: 3
+  top_terms:
+    AI: 11
+    automation: 2
+    intelligence: 1
