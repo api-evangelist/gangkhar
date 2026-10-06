@@ -44,7 +44,7 @@ accessModel:
 image: https://static.wixstatic.com/media/84a20e_d1dafb944cb5498bb07972a03101b8cb~mv2.png/v1/fit/w_2500,h_1330,al_c/84a20e_d1dafb944cb5498bb07972a03101b8cb~mv2.png
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-19'
+modified: '2026-10-06'
 tags:
 - Company
 - Insurance
@@ -69,6 +69,8 @@ tags_raw:
 - Claims
 apis: []
 common:
+- url: https://www.gangkhar.com/blog-feed.xml
+  type: BlogRSS
 - type: Website
   url: https://www.gangkhar.com/
 - type: About
